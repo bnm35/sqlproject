@@ -1,0 +1,24 @@
+use Hotel
+--create table customers (
+--customer_id varchar(10) primary key not null,
+--first_name varchar(50) not null,
+--last_name varchar(50) not null,
+--contact_number bigint not null,
+--email varchar(100) unique not null,
+--);
+--alter table customers add gender varchar(10);
+--update customers set gender = 'Male' where customer_id = 'C9';
+--insert into customers(customer_id,first_name,last_name,contact_number,email) values
+--('C1','Manit','Maharjan',9801234543,'maharjanmanit787@gmail.com'),
+--('C2','Binit','Maharjan',9801234544,'maharjanbinit787@gmail.com'),
+--('C3','Bigyan','Munikar',9801234545,'munikarbigyan787@gmail.com'),
+--('C4','Sushant','Munikar',9801234545,'munikarsushant787@gmail.com'),
+--('C5','Barsha','Maharjan',9801234573,'maharjanbarsha787@gmail.com'),
+--('C6','Ritu','Maharjan',9801234548,'maharjanritu787@gmail.com'),
+--('C7','Rubina','Maharjan',9801234943,'maharjanrubina787@gmail.com'),
+--('C8','Rozyna','Maharjan',9801234243,'maharjanrozyna787@gmail.com'),
+--('C9','Sanjay','Maharjan',9801234243,'maharjansanjay787@gmail.com'),
+--('C10','Salina','Maharjan',9801231543,'maharjansalina787@gmail.com'),
+--('C11','Season','Maharjan',9801239543,'maharjancizon787@gmail.com');
+--('C12','Sanisha','Maharjan',9801246721,'maharjansanisha787@gmail.com');
+select *from customers;
