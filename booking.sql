@@ -13,8 +13,8 @@ use Hotel;
 --foreign key (room_no, branch_id) references rooms(room_no, branch_id),
 --foreign key (customer_id) references customers(customer_id)
 --);
-insert into booking (booking_id,room_no, customer_id, branch_id, booking_date, check_in_date, check_out_date, contact_num, personal_requests) values 
-('BO12','F1-12','C12','B104','2023-01-09','2023-04-03','2023-04-30',9801234545,'No disturbance');
+--insert into booking (booking_id,room_no, customer_id, branch_id, booking_date, check_in_date, check_out_date, contact_num, personal_requests) values 
+--('BO12','F1-12','C12','B104','2023-01-09','2023-04-03','2023-04-30',9801234545,'No disturbance'),
 --('BO1','F1-1','C1','B101','2022-01-09','2022-04-03','2022-04-30',9801234543,'No disturbance'),
 --('BO1','F1-3','C1','B101','2021-02-09','2021-05-01','2021-06-01',9801234543,'No room service'),
 --('BO2','F1-2','C2','B105','2020-10-09','2020-12-02','2020-12-09',9801234544,'Smoking room'),
